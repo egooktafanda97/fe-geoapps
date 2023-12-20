@@ -1,22 +1,36 @@
+/** @format */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+   font-family: 'JetBrains'; /* Nama yang akan digunakan dalam properti font-family CSS */
+   src: url('/fonts/JetBrainsMonoNL-Regular.ttf') format('ttf'); /* Path menuju font file di direktori public */
+   /* Tambahkan format-font lain jika diperlukan (misalnya, woff2, ttf, dll.) */
+   font-weight: normal;
+   font-style: normal;
+}
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+   --foreground-rgb: 0, 0, 0;
+   --background-start-rgb: 214, 219, 220;
+   --background-end-rgb: 255, 255, 255;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+   :root {
+      --foreground-rgb: 255, 255, 255;
+      --background-start-rgb: 0, 0, 0;
+      --background-end-rgb: 0, 0, 0;
+   }
 }
 
 body {
+   font-family: 'JetBrains'; /* Menggunakan font yang telah didefinisikan */
+}
+
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,4 +38,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */

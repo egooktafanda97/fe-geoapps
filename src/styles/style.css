@@ -1,0 +1,26 @@
+.dashboard-label-container {
+    height: 250px;
+    width: 100%;
+    position: fixed;
+    box-sizing: border-box;
+    z-index: 0;
+}
+
+/*css3 design scrollbar*/
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e0dede;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #9c0b17;
+    border-radius: 10px;
+}
+
+.rounded-xl {
+    border-radius: 0%;
+} /*# sourceMappingURL=style.css.map */

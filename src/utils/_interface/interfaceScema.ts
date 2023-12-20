@@ -1,0 +1,29 @@
+export default interface dataPerjalanan {
+    kode_scema?: string
+    branch_id?: number
+    rute_perjalanan: string
+    jenis_mobil: number
+    pengemudi1: string
+    pengemudi2?: string
+    lama_perjalanan: number
+    car_number_police: number
+    travel_distance: number
+    inputKonsumsiBbm: number
+    konsumsiBbmTotal: number
+    bbm_perkm: number
+    liter_km: number
+    harga_bbm: number
+    spsi: string
+    retribusi: string
+    jemtim: string
+    parkir: string
+    mel: string
+    lainnya: string
+    jumlah_lumpsum: number
+    jumlah_mlm_perjalanan: number
+    lumpsum_perMalam: number
+    jumlah_insentif: number
+    insentif_pp: number
+    jumlah_uang_makan: number
+    uang_muka_harian: number
+}

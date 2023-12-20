@@ -1,0 +1,16 @@
+{
+  "printWidth": 300,
+  "tabWidth": 3,
+  "useTabs": false,
+  "endOfLine": "lf",
+  "semi": false,
+  "singleQuote": true,
+  "proseWrap": "always",
+  "singleVarDeclarator": true,
+  "overrides": [{
+    "files": "*.json",
+    "options": {
+      "tabWidth": 3
+    }
+  }]
+}
